@@ -1,2 +1,1 @@
-module.exports = require('./lib/signed-xml')
-module.exports.xpath = require('xpath.js')
+module.exports = require('./lib/create')
