@@ -10,6 +10,8 @@ Based on [yaronn’s xml-crypto](http://github.com/yaronn/xml-crypto).
 The signing is configured in one go.
 
 ```javascript
+    var xmlSignature = require('xml-signature');
+    
     var signed =
       xmlSignature.configureAndSign({
         xml: xml,
